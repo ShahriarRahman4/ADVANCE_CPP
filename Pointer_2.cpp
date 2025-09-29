@@ -1,0 +1,19 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+
+int main()
+{
+    int a =10;
+    
+    int *p=&a;
+
+    cout<<*p<<endl;//10
+
+    int **q=&p;
+
+    cout<<*q<<endl;
+    cout<<**q<<endl;
+
+    return 0;
+}
